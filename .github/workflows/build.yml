@@ -1,7 +1,6 @@
 name: Build and test
 
 on:
-  workflow_dispatch:
   push:
     - ".github/workflows/build.yml"
   pull_request:
